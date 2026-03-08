@@ -1,5 +1,6 @@
 // Simple HTTP file server
-// Access via http://10.217.14.236:12345/ to download the file
+//ip = go to cmd type ipconfig in that find Wireless LAN adapter Wi-Fi:  IPv4 Address. 
+// Access via http://<ip>:12345/ to download the file
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -68,4 +69,5 @@ int main() {
 
     printf("Video sent!\n");
     return 0;
+
 }
